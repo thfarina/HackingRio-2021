@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="criarConta.css" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="limiter">
+        <div class="container-login">
+
+            <div class="div-login">
+                <form id="log" action="login.php" method="post">
+                    <img class='imagem'src="http://www.blogdocasamento.com.br/wp-content/uploads/economia_domestica3.jpg" />
+
+                    <div class="TITULO" style="margin-bottom:10px;margin-top:10px;text-align:center; ">
+                        <label
+                            style="color:black;font-size:30px;font-weight:bold;font-family: Arial, Helvetica, sans-serif">Cadastro</label>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label for="login" style="color:black;font-size:18px;font-weight:bold;font-family: Arial, Helvetica, sans-serif">CPF</label>
+                        <input type="text" id="login" name="login" placeholder="Digite seu CPF (Apenas Numeros)" />
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="login" style="color:black;font-size:18px;font-weight:bold;font-family: Arial, Helvetica, sans-serif">Nome</label>
+                        <input type="text" id="login" name="login" placeholder="Digite seu Primeiro Nome" />
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="login" style="color:black;font-size:18px;font-weight:bold;font-family: Arial, Helvetica, sans-serif">Sobrenome</label>
+                        <input type="text" id="login" name="login" placeholder="Digite seu Sobrenome" />
+                    </div>
+
+                    <div class="mb-3 row" >
+                        <label for="login" style="color:black;font-size:18px;font-weight:bold;font-family: Arial, Helvetica, sans-serif"> Digite sua senha</label>
+                        <input type="password" id="login" name="login" placeholder="Digite sua senha" />
+                    </div>
+                    <button type="submit" id="submeter"> Cadastrar </button>
+
+
+
+                    
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="easy_background.js"></script>
+    <script>
+        easy_background("body",
+            {
+                slide: [,],
+                delay: [10000, 10000, 10000, 10000]
+            }
+        );
+    </script>
+
+</body>
+
+</html>
